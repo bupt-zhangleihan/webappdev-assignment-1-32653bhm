@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "小狗的图片扩展",
+  "version": "1.0",
+  "description": "解决没有足够宠物图片的问题 - 获取随机小狗的图片",
+  "permissions": ["activeTab"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  }
+}
